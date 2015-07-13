@@ -41,7 +41,7 @@ median = median(data$Steps, na.rm=TRUE)
 print(plot)
 ```
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png) 
+![plot of chunk unnamed-chunk-2](figure/histogram_total_steps.png ) 
 
 ```r
 print(mean)
