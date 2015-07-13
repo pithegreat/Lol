@@ -70,7 +70,7 @@ highest = filter(data, Steps==max(data$Steps))
 print(plot)
 ```
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png) 
+![plot of chunk unnamed-chunk-3](figure/interval_steps.png) 
 
 ```r
 print(highest)
@@ -131,7 +131,7 @@ median = median(data$Steps)
 print(plot)
 ```
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png) 
+![plot of chunk unnamed-chunk-5](figure/no_missing_data.png ) 
 
 ```r
 print(mean)
@@ -177,4 +177,4 @@ plot = plot = plot + labs(x="5 Minute Interval",y="Steps Walked",title="Steps Wa
 print(plot)
 ```
 
-![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6-1.png) 
+![plot of chunk unnamed-chunk-6](figure/weekday_weekend.png ) 
